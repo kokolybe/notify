@@ -1,5 +1,15 @@
 {
+  "name": "uptime-notifier",
+  "version": "1.0.0",
+  "description": "API pour recevoir des notifications d'Uptime Kuma",
+  "main": "index.js",
   "scripts": {
-    "start": "node node.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
